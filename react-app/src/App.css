@@ -1,0 +1,84 @@
+#divTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+
+#tblProducts {
+  font-family: Helvetica;
+  font-size: 12px;
+  border: solid 1px gray;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: auto;
+}
+
+#tblProducts th {
+  text-align: center;
+  border: solid 1px gray;
+}
+
+#tblProducts td {
+  text-align: left;
+  border: solid 1px gray;
+}
+
+tbody > tr:nth-child(even) {
+  background: #fff;
+}
+
+tbody > tr:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+thead > tr {
+  height: 30px;
+}
+
+#divSearch {
+  height: 40px;
+}
+
+#divSearch {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ascending {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-image: url("/src/images/sort_asc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.descending {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-image: url("/src/images/sort_desc.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.off {
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-image: url("/src/images/sort_both.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
